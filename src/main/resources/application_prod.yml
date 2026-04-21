@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to the Loans Microservice related to Prod environment"
+  contactDetails:
+    name: "Dat Mai - Product Owner"
+    email: "hiendat04-po@gmail.com"
+  onCallSupport:
+    - (333) 123-4567
+    - (333) 987-6543
